@@ -19,7 +19,7 @@ export const Switch: React.FC<SwitchProps> = ({ checked, disabled, onChange }) =
           <button 
             className={checked ? 'switch checked' : 'switch'}
             onClick={onChange}
-          ></button>
+          />
         </div>
       }
     </>

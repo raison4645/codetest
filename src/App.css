@@ -6,7 +6,6 @@
   background: grey;
   transition: background 0.2s;
   position: relative;
-  cursor: pointer;
   &.disabled {
     opacity: 0.5;
   }
